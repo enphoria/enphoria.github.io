@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/Logo Enphoria.png',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,7 +53,7 @@ const config = {
       navbar: {
         title: 'Enphoria',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Enphoria',
           src: 'img/Enphoria.png',
         },
         items: [
@@ -63,9 +63,10 @@ const config = {
             position: 'left',
             label: 'Fault Location',
           },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/enphoria/ms-fault-location/tree/manual-tecnico-localizador',
+            href: 'https://github.com/enphoria/ms-fault-location',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,8 +82,18 @@ const config = {
                 label: 'Fault location',
                 to: '/docs/Manual de Usuario',
               },
+              {
+            title: 'Documentos',
+            items: [
+              {
+                label: 'Fault Location',
+                to: '/docs/Manual tecnico/manual_tecnico',
+              },
             ],
           },
+            ],
+          },
+          
           {
             title: 'More',
             items: [
