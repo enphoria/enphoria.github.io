@@ -14,11 +14,20 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+
+        <div className={styles.button1}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/Manual de Usuario">
-            Documentacion de Fault Location
+           Pulsa aquí si quieres ver el Manual de Usuario
+          </Link>
+        </div>
+
+        <div className={styles.button2}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/Manual tecnico/manual_tecnico">
+            Pulsa aquí si quieres ver el Manual tecnico
           </Link>
         </div>
       </div>
@@ -30,7 +39,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Enphoria`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
