@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentacion de Fault Location',
-  tagline: 'Fault Location',
+  title: 'Enphoria',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,7 +59,7 @@ const config = {
         items: [
           {
            type: 'doc',
-            docId: 'Manual de Usuario',
+            docId: 'Manual Usuario/Manual de Usuario',
             position: 'left',
             label: 'Fault Location',
           },
@@ -79,36 +79,27 @@ const config = {
             title: 'Documentos',
             items: [
               {
-                label: 'Fault location',
-                to: '/docs/Manual de Usuario',
+                label: 'Manual de Usuario',
+                to: '/docs/Manual Usuario/Manual de Usuario',
               },
+
               {
-            title: 'Documentos',
-            items: [
-              {
-                label: 'Fault Location',
+                label: 'Manual tecnico',
                 to: '/docs/Manual tecnico/manual_tecnico',
-              },
-            ],
-          },
-            ],
-          },
-          
+              },           
+        ],
+      },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/enphoria/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Enphoria © ${new Date().getFullYear()}.`,
       },
       prism: {
         theme: lightCodeTheme,
