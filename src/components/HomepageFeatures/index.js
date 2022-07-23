@@ -4,45 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Lorem ipsum it dolr amet',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Lorem ipsum it dolor
+        
       </>
     ),
   },
   {
-    title: 'Lorem ipsum it dolr amet',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Lorem ipsum it dolr amet.
+        
       </>
     ),
   },
   {
-    title: 'Lorem ipsum it dolr amet',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Lorem ipsum it dolr amet.
+        
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
   );
 }
 
