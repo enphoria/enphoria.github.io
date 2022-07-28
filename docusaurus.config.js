@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentacion de Fault Location',
-  tagline: 'Fault Location',
+  title: 'Enphoria',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/Logo Enphoria.png',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,19 +53,20 @@ const config = {
       navbar: {
         title: 'Enphoria',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Enphoria',
           src: 'img/Enphoria.png',
         },
         items: [
           {
            type: 'doc',
-            docId: 'Manual de Usuario',
+            docId: 'Manual Usuario/Manual de Usuario',
             position: 'left',
             label: 'Fault Location',
           },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/enphoria/ms-fault-location/tree/manual-tecnico-localizador',
+            href: 'https://github.com/enphoria/ms-fault-location',
             label: 'GitHub',
             position: 'right',
           },
@@ -78,26 +79,27 @@ const config = {
             title: 'Documentos',
             items: [
               {
-                label: 'Fault location',
-                to: '/docs/Manual de Usuario',
+                label: 'Manual de Usuario',
+                to: '/docs/Manual Usuario/Manual de Usuario',
               },
-            ],
-          },
+
+              {
+                label: 'Manual tecnico',
+                to: '/docs/Manual tecnico/manual_tecnico',
+              },           
+        ],
+      },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/enphoria/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Enphoria © ${new Date().getFullYear()}.`,
       },
       prism: {
         theme: lightCodeTheme,
