@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: left;
   position: absolute;
+  left: 40px;
 
 }
 
@@ -29,6 +30,6 @@
   align-items: center;
   justify-content: right;
   position: absolute;
-  right: 60px;
+  right: 40px;
 
 }
