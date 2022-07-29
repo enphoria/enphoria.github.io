@@ -19,7 +19,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/Manual de Usuario">
-           Pulsa aquí si quieres ver el Manual de Usuario
+           Ver el Manual de Usuario
           </Link>
         </div>
 
@@ -27,7 +27,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/Manual Tecnico">
-            Pulsa aquí si quieres ver el Manual tecnico
+            Ver el Manual tecnico
             </Link>
           
         </div>
