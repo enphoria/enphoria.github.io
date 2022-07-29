@@ -59,7 +59,7 @@ const config = {
         items: [
           {
            type: 'doc',
-            docId: 'Manual Usuario/Manual de Usuario',
+            docId: 'Manual de Usuario',
             position: 'left',
             label: 'Fault Location',
           },
