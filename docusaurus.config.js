@@ -9,7 +9,7 @@ const config = {
   title: 'Enphoria',
   tagline: '',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/build/index.html/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
