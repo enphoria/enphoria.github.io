@@ -27,7 +27,6 @@
 .button2 {
   display: flex;
   align-items: center;
-  justify-content: right; 
-  position: relative;
+  justify-content: right;
 
 }
