@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 2000px) {
   .heroBanner {
     padding: 200rem;
   }
@@ -28,5 +28,5 @@
   display: flex;
   align-items: center;
   justify-content: right; 
-  
+  position: absolute
 }
