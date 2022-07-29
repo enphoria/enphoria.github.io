@@ -77,7 +77,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentos',
+            title: 'Documentos en Github',
             items: [
               {
                 label: 'Manual de Usuario',
