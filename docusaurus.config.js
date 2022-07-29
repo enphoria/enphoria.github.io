@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Manual de Usuario',
-                href: 'https://github.com/zepben/ms-fault-location/blob/main/documentation/tech-manual-spanish/manual_tecnico.md',
+                href: 'https://github.com/zepben/ms-fault-location/blob/main/documentation/user-manual-spanish/manual-de-usuario.md',
               },
 
               {
