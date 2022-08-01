@@ -14,11 +14,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: ' ',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Enphoria', // Usually your GitHub org/user name.
-  projectName: 'enphoria.github.io', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -81,12 +76,12 @@ const config = {
             items: [
               {
                 label: 'Manual de Usuario',
-                href: 'https://github.com/zepben/ms-fault-location/blob/main/documentation/user-manual-spanish/manual-de-usuario.md',
+                to: '/docs/Manual de Usuario',
               },
 
               {
                 label: 'Manual tecnico',
-                href: 'https://github.com/zepben/ms-fault-location/blob/main/documentation/tech-manual-spanish/manual_tecnico.md',
+                to: '/docs/Manual Tecnico',
               },           
         ],
       },

@@ -3,30 +3,9 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    description: (
-      <>
-        
-      </>
-    ),
-  },
-  {
-    description: (
-      <>
-        
-      </>
-    ),
-  },
-  {
-    description: (
-      <>
-        
-      </>
-    ),
-  },
-];
+]
 
-function Feature({description}) {
+function Feature({ }) {
   return (
       <div className="text--center padding-horiz--md">
         <p>{description}</p>

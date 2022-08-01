@@ -8,7 +8,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -19,25 +19,27 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/Manual de Usuario">
-           Ver el Manual de Usuario
+            <h4>Manual de Usuario</h4>
+            <small>Localizador de fallas</small>
+
           </Link>
         </div>
+      </div>
 
-        <div className={styles.button2}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/Manual Tecnico">
-            Ver el Manual tecnico
-            </Link>
-          
-        </div>
+      <div className={styles.button2}>
+        <Link
+          className="button button--secondary button--lg"
+          to="/docs/Manual Tecnico">
+          <h4>Manual Técnico</h4>
+          <small>Localizador de fallas</small>
+        </Link>
       </div>
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Enphoria`}
