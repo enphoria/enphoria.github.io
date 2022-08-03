@@ -14,32 +14,25 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        </div>
-        </header>
-        );
-}
+</div>
 
         <div class="main-wrapper">
           <main class="container margin-vert--lg">
             <div class="text--center margin-bottom--md margin-top--md">
-              <h1>SDKs</h1>
+              <h1>Fault Location</h1>
             </div><div class="row">
               <div class="col col--4 margin-bottom--lg">
                 <div class="card showcaseItem_63An"><div class="card__body">
                   <div class="avatar">
                     <div class="avatar__intro margin-left--none">
-                      <h4 class="avatar__name">Evolve JVM SDK</h4>
-                      <small class="avatar__subtitle">Java / Kotlin JVM implementation of the Evolve CIM profile and related tools for working with data models. Also contains interfaces for communicating with the Energy Workbench Network Server.</small>
+                      <h4 class="avatar__name">Manual de Usuario</h4>
+                      <small class="avatar__subtitle">Este es el Manual de Usuario para el correcto uso del Localizador de fallas</small>
                     </div>
                   </div>
                 </div>
                   <div class="card__footer">
                     <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="jvm-sdk" target="_blank" rel="noreferrer noopener">Documentation</a>
-                      <a class="button button--small button--secondary button--block" href="https://github.com/zepben/evolve-sdk-jvm" target="_blank" rel="noreferrer noopener">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg>
-                      </a>
+                      <a class="button button--small button--secondary button--block" href="/docs/Manual de Usuario" target="_blank" rel="noreferrer noopener">Documentación</a>
                     </div>
                   </div>
                 </div>
@@ -49,37 +42,33 @@ function HomepageHeader() {
                   <div class="card__body">
                     <div class="avatar">
                       <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">Evolve Python SDK</h4>
-                        <small class="avatar__subtitle">Python implementation of the Evolve CIM profile and related tools for working with data models. Also contains interfaces for communicating with the Energy Workbench Network Server.</small>
+                        <h4 class="avatar__name">Manual Técnico</h4>
+                        <small class="avatar__subtitle">Este es el Manual Técnico para el uso del Localizador de fallas</small>
                       </div>
                     </div>
                   </div>
                   <div class="card__footer">
                     <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="python-sdk" target="_blank" rel="noreferrer noopener">Documentation</a>
-                      <a class="button button--small button--secondary button--block" href="https://github.com/zepben/evolve-sdk-python" target="_blank" rel="noreferrer noopener">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                          </path>
-                        </svg>
-                      </a>
+                      <a class="button button--small button--secondary button--block" href="/docs/Manual Tecnico" target="_blank" rel="noreferrer noopener">Documentación</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="text--center margin-bottom--md margin-top--md">
-              <h1>Servers</h1>
+              <h1>Zepben</h1>
             </div>
             <div class="row">
               <div class="col col--4 margin-bottom--lg">
                 <div class="card showcaseItem_63An">
-                  <div class="card__body"><div class="avatar">
-                    <div class="avatar__intro margin-left--none">
-                      <h4 class="avatar__name">Energy Workbench Server</h4>
-                      <small class="avatar__subtitle">Data server for energy networks built on top of the Evolve SDK.</small>
+                  <div class="card__body">
+                    <div class="avatar">
+                      <div class="avatar__intro margin-left--none">
+                        <h4 class="avatar__name">Energy Workbench</h4>
+                        <small class="avatar__subtitle">Plataforma escalable de integración de redes y planificación de redes</small>
+                      </div>
                     </div>
-                  </div>
                   </div>
                   <div class="card__footer">
                     <div class="button-group button-group--block">
@@ -292,169 +281,18 @@ function HomepageHeader() {
                     </div>
                   </div>
                   </div>
-                  <div class="card__footer"><div class="button-group button-group--block">
-                    <a class="button button--small button--secondary button--block" href="ewb-bundle" target="_blank" rel="noreferrer noopener">Documentation</a>
-                  </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="text--center margin-bottom--md margin-top--md">
-              <h1>Data Models</h1>
-            </div>
-            <div class="row">
-              <div class="col col--4 margin-bottom--lg">
-                <div class="card showcaseItem_63An">
-                  <div class="card__body">
-                    <div class="avatar">
-                      <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">Evolve Profile</h4>
-                        <small class="avatar__subtitle">Evolve profile of the CIM data model.</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card__footer">
-                    <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="cim/evolve" target="_blank" rel="noreferrer noopener">Documentation</a>
-                    </div>
-                  </div>
+                <div class="card__footer"><div class="button-group button-group--block">
+                  <a class="button button--small button--secondary button--block" href="ewb-bundle" target="_blank" rel="noreferrer noopener">Documentation</a>
                 </div>
-              </div>
-              <div class="col col--4 margin-bottom--lg">
-                <div class="card showcaseItem_63An">
-                  <div class="card__body">
-                    <div class="avatar">
-                      <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">CIM100 Data Model</h4>
-                        <small class="avatar__subtitle">CIM100 data model.</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card__footer">
-                    <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="cim/cim100" target="_blank" rel="noreferrer noopener">Documentation</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col--4 margin-bottom--lg"><div class="card showcaseItem_63An"><div class="card__body">
-                <div class="avatar">
-                  <div class="avatar__intro margin-left--none">
-                    <h4 class="avatar__name">IEEE 2030.5 Data Model</h4>
-                    <small class="avatar__subtitle">The complete IEEE 2030.5 data model.</small>
-                  </div>
-                </div>
-              </div>
-                <div class="card__footer">
-                  <div class="button-group button-group--block">
-                    <a class="button button--small button--secondary button--block" href="2030-5" target="_blank" rel="noreferrer noopener">Documentation</a>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-            <div class="text--center margin-bottom--md margin-top--md">
-              <h1>Tools</h1>
-            </div>
-            <div class="row">
-              <div class="col col--4 margin-bottom--lg">
-                <div class="card showcaseItem_63An">
-                  <div class="card__body">
-                    <div class="avatar">
-                      <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">Feeder Load Analysis</h4>
-                        <small class="avatar__subtitle">Runs load analysis of feeder segments on network models provided by the Energy Workbench.</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card__footer">
-                    <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="feeder-load-analysis" target="_blank" rel="noreferrer noopener">Documentation</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text--center margin-bottom--md margin-top--md">
-              <h1>SINCAL</h1>
-            </div>
-            <div class="row">
-              <div class="col col--4 margin-bottom--lg">
-                <div class="card showcaseItem_63An">
-                  <div class="card__body">
-                    <div class="avatar">
-                      <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">SINCAL Exporter</h4>
-                        <small class="avatar__subtitle">Exporter to create SINCAL models from the network models provided by the Energy Workbench.</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card__footer">
-                    <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="sincal-exporter" target="_blank" rel="noreferrer noopener">Documentation</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col--4 margin-bottom--lg">
-                <div class="card showcaseItem_63An">
-                  <div class="card__body">
-                    <div class="avatar">
-                      <div class="avatar__intro margin-left--none">
-                        <h4 class="avatar__name">SINCAL Smart Load Plugin</h4>
-                        <small class="avatar__subtitle">SINCAL plugin that provides load data from the Energy Workbench when running load flow studies.</small>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card__footer">
-                    <div class="button-group button-group--block">
-                      <a class="button button--small button--secondary button--block" href="smart-load-plugin" target="_blank" rel="noreferrer noopener">Documentation</a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </main>
         </div>
-
-        {/* <div class="col col--4 margin-bottom--lg">
-          <div class="card showcaseItem_63An">
-            <div class="card__body">
-              <div class="avatar">
-                <div class="avatar__intro margin-left--none">
-                  <h4 class="avatar__name">Manual de Usuario</h4>
-                  <small class="avatar__subtitle"> Este es el Manual de Usuario para el correcto uso del Localizador de fallas</small>
-                </div>
-              </div>
-            </div>
-            <div class="card__footer">
-              <div class="button-group button-group--block">
-                <a class="button button--small button--secondary button--block" href="/docs/Manual de Usuario" target="_blank" rel="noreferrer noopener">Documentation</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col col--4 margin-bottom--lg">
-        <div class="card showcaseItem_63An">
-          <div class="card__body">
-            <div class="avatar">
-              <div class="avatar__intro margin-left--none">
-                <h4 class="avatar__name">Manual Técnico</h4>
-                <small class="avatar__subtitle"> Este es el Manual Técnico para el uso del Localizador de fallas</small>
-              </div>
-            </div>
-          </div>
-          <div class="card__footer">
-            <div class="button-group button-group--block">
-              <a class="button button--small button--secondary button--block" href="/docs/Manual Tecnico" target="_blank" rel="noreferrer noopener">Documentation</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> */}
-
+    </header>
+  );
+}
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
