@@ -46,9 +46,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'Enphoria',
+                title: 'Productos',
                 logo: {
-                    alt: 'Enphoria',
+                    alt: 'Productos',
                     src: 'img/Enphoria.png',
                 },
                 items: [
@@ -56,14 +56,14 @@ const config = {
                         type: 'doc',
                         docId: 'Manual de Usuario',
                         position: 'left',
-                        label: 'Productos Enphoria',
+                        label: 'Enphoria',
                     },
 
                     {
                         type: 'doc',
                         docId: 'Zepben',
                         position: 'left',
-                        label: 'Productos que soportamos de Zepben',
+                        label: 'Zepben',
 
                     },
 
