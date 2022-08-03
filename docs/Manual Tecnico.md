@@ -1,7 +1,11 @@
-# MANUAL TÉCNICO 
+# Manual Tecnico
+
 ## LOCALIZADOR DE FALLAS
-![Portada](portada.png "Portada manual técnico") 
+
+![Portada](portada.png "Portada manual técnico")
+
 ### METODOLOGÍA PROPUESTA
+
 El método de localización de fallas que proponemos combina la información de la red del alimentador junto con las mediciones de corriente para la posible localización de fallas. En primer lugar, el método utiliza la magnitud de las corrientes adquiridas durante la condición de fallo por el reconectador o el interruptor para determinar el tipo de fallo y las fases involucradas. Se realiza un rastreo aguas abajo del reconectador y se calcula la impedancia equivalente total de cada línea aguas abajo del alimentador. La corriente de fallo se calcula para todas líneas aguas abajo y se compara con la corriente de fallo registrada para obtener la ubicación de la falla basada en la coincidencia de la corriente de falla.
 
 Los principales pasos del algoritmo se describen a continuación siguiente y se muestran en la Figura 1.
