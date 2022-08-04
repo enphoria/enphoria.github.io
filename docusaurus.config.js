@@ -59,17 +59,10 @@ const config = {
                         label: 'Enphoria',
                     },
 
-                    {
-                        type: 'doc',
-                        docId: 'Zepben',
-                        position: 'left',
-                        label: 'Zepben',
-
-                    },
-
-                    /*{to: '/blog', label: 'Blog', position: 'left'},/**/
+                    {to: '/blog', label: 'Zepben', position: 'left'},
                 ],
             },
+            
             footer: {
                 style: 'light',
                 links: [
