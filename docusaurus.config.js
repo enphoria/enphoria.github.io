@@ -32,7 +32,7 @@ const config = {
                     // Please change this to your repo.
                 },
                 blog: {
-                    showReadingTime: true,
+                    showReadingTime: false,
                     // Please change this to your repo.
                 },
                 theme: {
@@ -64,7 +64,7 @@ const config = {
             },
             
             footer: {
-                style: 'light',
+                style: 'dark',
                 links: [
                     
                     {

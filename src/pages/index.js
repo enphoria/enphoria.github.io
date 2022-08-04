@@ -19,7 +19,7 @@ function HomepageHeader() {
       <div class="main-wrapper">
         <main class="container margin-vert--lg">
           <div class="text--center margin-bottom--md margin-top--md">
-            <h1>Fault Location</h1>
+            <h1>Enphoria Fault Location</h1>
           </div><div class="row">
             <div class="col col--4 margin-bottom--lg">
               <div class="card showcaseItem_63An"><div class="card__body">
@@ -72,7 +72,7 @@ function HomepageHeader() {
                 </div>
                 <div class="card__footer">
                   <div class="button-group button-group--block">
-                    <a class="button button--small button--secondary button--block" href="energy-workbench-server" target="_blank" rel="noreferrer noopener">Documentation</a>
+                    <a class="button button--small button--secondary button--block" href="blog/long-blog-post.md" target="_blank" rel="noreferrer noopener">Documentation</a>
                   </div>
                 </div>
               </div>
@@ -82,8 +82,8 @@ function HomepageHeader() {
                 <div class="card__body">
                   <div class="avatar">
                     <div class="avatar__intro margin-left--none">
-                      <h4 class="avatar__name">Energy Network Server</h4>
-                      <small class="avatar__subtitle">Cut down version of the Energy Workbench server to provide only network models and related functions.</small>
+                      <h4 class="avatar__name">EDNAR</h4>
+                      <small class="avatar__subtitle">EDNAR (Registro de acceso a la red de distribución eléctrica) es una aplicación diseñada desde cero para respaldar el flujo de trabajo de solicitud de acceso a la red planificado para las redes de distribución de electricidad.</small>
                     </div>
                   </div>
                 </div>
@@ -98,8 +98,8 @@ function HomepageHeader() {
                 <div class="card__body">
                   <div class="avatar">
                     <div class="avatar__intro margin-left--none">
-                      <h4 class="avatar__name">PoF Historian Server</h4>
-                      <small class="avatar__subtitle">REST-like API access to PowerOn Fusion historical analog data.</small>
+                      <h4 class="avatar__name">Herramienta de Exportación y Creación de Modelos SINCAL</h4>
+                      <small class="avatar__subtitle">La herramienta de creación de modelos Zeppelin Bend Sincal (exportador Sincal) proporciona una forma sencilla de crear modelos PSS/Sincal</small>
                     </div>
                   </div>
                 </div>
@@ -109,23 +109,8 @@ function HomepageHeader() {
                 </div>
               </div>
             </div>
-            <div class="col col--4 margin-bottom--lg">
-              <div class="card showcaseItem_63An">
-                <div class="card__body"><div class="avatar">
-                  <div class="avatar__intro margin-left--none">
-                    <h4 class="avatar__name">Evolve App Server</h4>
-                    <small class="avatar__subtitle">Server that provides authentication, user data, and other app data to an Evolve client, while acting as a gateway for other evolve services</small>
-                  </div>
-                </div>
-                </div>
-                <div class="card__footer"><div class="button-group button-group--block">
-                  <a class="button button--small button--secondary button--block" href="evolve-app-server" target="_blank" rel="noreferrer noopener">Documentation</a>
-                </div>
-                </div>
-              </div>
-            </div>
           </div>
-          <div class="text--center margin-bottom--md margin-top--md">
+          {/* <div class="text--center margin-bottom--md margin-top--md">
             <h1>User Interface</h1>
           </div><div class="row">
             <div class="col col--4 margin-bottom--lg">
@@ -287,7 +272,7 @@ function HomepageHeader() {
               </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </main>
       </div>
     </header>
