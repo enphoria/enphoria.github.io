@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 10rem;
+  padding: 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -12,24 +12,8 @@
 
 @media screen and (max-width: 1000px) {
   .heroBanner {
-    padding: 20rem;
+    padding: 10rem;
   }
-}
-
-.button1 {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  position: absolute;
-  left: 105px;
-
-}
-
-.button2 {
-  display: flex;
-  justify-content: right;
-  position: absolute;
-  right: 105px;
 }
 
 .avatar__subtitle {
@@ -45,6 +29,7 @@
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   color: var(--ifm-font-color-base);
+  position: center;
 }
 
 .avatar__intro {
