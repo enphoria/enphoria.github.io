@@ -72,7 +72,7 @@ function HomepageHeader() {
                 </div>
                 <div class="card__footer">
                   <div class="button-group button-group--block">
-                    <a class="button button--small button--secondary button--block" href="blog/long-blog-post.md" target="_blank" rel="noreferrer noopener">Documentation</a>
+                    <a class="button button--small button--secondary button--block" href="/blog/energy-workbench" target="_blank" rel="noreferrer noopener">Documentation</a>
                   </div>
                 </div>
               </div>
