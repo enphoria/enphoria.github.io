@@ -5,7 +5,7 @@ authors:
   name: Manuel Urquina
   title: Front-End Developer
   url: https://github.com/ManuelUrquina
-  image_url: https://c.tenor.com/y-79eBwAwxQAAAAi/nekoarc-melty-blood.gif
+  image_url: https://img.freepik.com/vector-premium/caracter-desarrollador-software-programador-desarrolla-ilustracion-codigo_80590-7310.jpg
 tags: [hola, docusaurus]
 ---
 
