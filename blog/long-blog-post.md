@@ -1,7 +1,6 @@
 ---
 slug: energy-workbench
 title: Energy WorkBench
-authors: endi
 ---
 
 A medida que la transición energética impulsada por el cliente cambia el statu quo de las redes de distribución unidireccionales, existe la necesidad de nuevas herramientas y enfoques para analizar, planificar y monitorear el sistema de distribución.
@@ -50,19 +49,27 @@ Además de utilizar el modelo de información común (CIM) en su núcleo, Energy
 ADMS PowerOn Fusion/Ventaja
 
 Extracto del modelo: directo del esquema ADMS
+
 Interfaz de información operativa
+
 Detección de eventos para el cambio de estado del interruptor
+
 Almacén de datos de series temporales nativas (historiador)
 
 SIG/ADMS
+
 Smallworld EO CIM RDF
-formato geoJSON
+
+Formato geoJSON
+
 Schneider SEDMS CIM RDF
 
 IP OSI
+
 Aplicación nativa de C# con interfaz directa al servidor de archivo de datos OSI PI
 
 AMI y datos del cliente
+
 Ingestión de CSV
 
 Universidad Nacional de Australia (ANU) - Programa de Integración de Red y Almacenamiento de Baterías
