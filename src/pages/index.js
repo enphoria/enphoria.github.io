@@ -83,12 +83,12 @@ function HomepageHeader() {
                   <div class="avatar">
                     <div class="avatar__intro margin-left--none">
                       <h4 class="avatar__name">EDNAR</h4>
-                      <small class="avatar__subtitle">EDNAR (Registro de acceso a la red de distribución eléctrica) es una aplicación diseñada desde cero para respaldar el flujo de trabajo de solicitud de acceso a la red planificado para las redes de distribución de electricidad.</small>
+                      <small class="avatar__subtitle">EDNAR (Electrical Distribution Network Access Register) es una aplicación diseñada desde cero para respaldar el flujo de trabajo de solicitud de acceso a la red planificado para las redes de distribución de electricidad.</small>
                     </div>
                   </div>
                 </div>
                 <div class="card__footer"><div class="button-group button-group--block">
-                  <a class="button button--small button--secondary button--block" href="network-server" target="_blank" rel="noreferrer noopener">Documentation</a>
+                  <a class="button button--small button--secondary button--block" href="blog/ednar" target="_blank" rel="noreferrer noopener">Documentation</a>
                 </div>
                 </div>
               </div>
