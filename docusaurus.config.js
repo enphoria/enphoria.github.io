@@ -43,8 +43,13 @@ const config = {
     ],
 
     themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            colorMode: {
+                defaultMode: 'dark',
+                disableSwitch: true,
+                respectPrefersColorScheme: true,
+            },
             navbar: {
                 title: 'Productos',
                 logo: {
@@ -59,14 +64,14 @@ const config = {
                         label: 'Enphoria',
                     },
 
-                    {to: '/blog', label: 'Zepben', position: 'left'},
+                    { to: '/blog', label: 'Zepben', position: 'left' },
                 ],
             },
-            
+
             footer: {
                 style: 'dark',
                 links: [
-                    
+
                     {
                         title: 'Enphoria',
                         items: [
@@ -85,7 +90,7 @@ const config = {
                                 href: 'https://github.com/zepben',
                             },
                         ],
-                    },                
+                    },
                 ],
                 copyright: `Enphoria © ${new Date().getFullYear()}.`,
             },
@@ -96,3 +101,4 @@ const config = {
 };
 
 module.exports = config;
+
