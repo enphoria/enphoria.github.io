@@ -2,8 +2,7 @@
 slug: ednar
 title: EDNAR
 ---
-
-Beneficios
+## Beneficios
 
 -El soporte de la cuna a la tumba para el flujo de trabajo de acceso planificado agiliza las operaciones comerciales y reduce los costos
 
@@ -24,8 +23,10 @@ Automatización y seguimiento de notificaciones de clientes.
 
 -Se integra con ADMS para crear horarios de conmutación y monitorear el progreso del trabajo dentro de ADMS
 
+![imagen](ednargraphic1.png "alt")
 
-Soporte de la cuna a la tumba para el trabajo planificado
+
+## Apoyo de principio a fin para el trabajo planificado
 
 EDNAR soporta todo el ciclo de vida del trabajo planificado.
 
@@ -33,11 +34,14 @@ La captura temprana de trabajos durante el proceso de planificación brinda opor
 
 EDNAR proporciona la digitalización de los procesos manuales que normalmente se utilizan para el flujo de trabajo de planificación de interrupciones, con todos los beneficios correspondientes, como la transparencia de la operación, el seguimiento de auditoría, la reducción de la entrada doble de datos y la gestión eficaz del trabajo.
 
+![imagen](ednargraphic2.png "alt")
 
-Construido pensando en la movilidad
+## Construido pensando en la movilidad
 
 El soporte para la movilidad se ha integrado en EDNAR desde cero, lo que hace posible realizar muchas funciones de manera efectiva en un dispositivo móvil, ya sea una tableta IOS, Android o Windows.
 
 Esto es particularmente importante para la identificación temprana de restricciones de aislamiento y el refinamiento de la lista de clientes mientras los operadores de campo realizan el reconocimiento de un sitio de trabajo al principio del ciclo de vida de la aplicación de solicitud de acceso a la red.
 
 Las vistas geoespaciales y esquemáticas de los activos de la red están disponibles en dispositivos móviles. Los activos se representan mediante gráficos basados ​​en vectores, lo que proporciona una experiencia de usuario superior en comparación con los gráficos basados ​​en tramas y minimiza los requisitos de ancho de banda de la red.
+
+![imagen](ednargraphic3.png "alt")
