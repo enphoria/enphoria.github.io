@@ -24,7 +24,7 @@ Energy Workbench permite a los miembros del equipo trabajar directamente con dat
 
 ![imagen](question1.png "questions") ![imagen](question2.png "questions") ![imagen](question3.png "questions")![imagen](question4.png "questions")
 
-Tecnología
+## Tecnología
 
 Energy Workbench proporciona un entorno de desarrollo de aplicaciones flexible para admitir una variedad de casos de uso "listos para usar" al tiempo que brinda la flexibilidad para que las organizaciones desarrollen e implementen sus propias soluciones de nivel empresarial.
 
@@ -34,7 +34,7 @@ Para las organizaciones que van más allá del análisis o la investigación ad-
 
 ![imagen](zepben-grafica-3.png "EWB3")
 
-Modelo de datos
+## Modelo de datos
 
 La base de la plataforma Energy Workbench es un modelo de datos basado en el modelo de información común (CIM) y el perfil CIM de evolución.
 
@@ -42,35 +42,35 @@ Este modelo es la base de toda la suite de productos de Zepben, lo que permite u
 
 ![imagen](zepben%20grafica%204.png "EWB4")
 
-Integraciones y adaptadores
+## Integraciones y adaptadores
 
 Además de utilizar el modelo de información común (CIM) en su núcleo, Energy Workbench tiene una gama de integraciones "listas para usar" que permiten a nuestros clientes reunir la información del modelo de red en un sistema empresarial central.
 
-ADMS PowerOn Fusion/Ventaja
+### ADMS PowerOn Fusion/Ventaja
 
-Extracto del modelo: directo del esquema ADMS
+-Extracto del modelo: directo del esquema ADMS
 
-Interfaz de información operativa
+-Interfaz de información operativa
 
-Detección de eventos para el cambio de estado del interruptor
+-Detección de eventos para el cambio de estado del interruptor
 
-Almacén de datos de series temporales nativas (historiador)
+-Almacén de datos de series temporales nativas (historiador)
 
-SIG/ADMS
+### SIG/ADMS
 
-Smallworld EO CIM RDF
+-Smallworld EO CIM RDF
 
-Formato geoJSON
+-Formato geoJSON
 
-Schneider SEDMS CIM RDF
+-Schneider SEDMS CIM RDF
 
-IP OSI
+### OSI PI
 
-Aplicación nativa de C# con interfaz directa al servidor de archivo de datos OSI PI
+-Aplicación nativa de C# con interfaz directa al servidor de archivo de datos OSI PI
 
-AMI y datos del cliente
+### AMI y datos del cliente
 
-Ingestión de CSV
+-Ingestión de CSV
 
 Universidad Nacional de Australia (ANU) - Programa de Integración de Red y Almacenamiento de Baterías
 evolucionar la pila de tecnología del proyecto
@@ -79,14 +79,14 @@ Motor de envolvente operativo dinámico en tiempo real
 Servidor de utilidades IEEE 2030.5
 
 
-Ediciones
+## Ediciones
 
-Edición de la comunidad
+### Edición de la comunidad
 
 Diseñado para permitir que las personas exploren casos de uso, desarrollen pruebas de concepto y realicen análisis únicos de redes eléctricas. Esta edición incluye todo lo necesario para ingerir, consultar, visualizar y manipular datos de redes eléctricas, y analizar y ejecutar estudios de flujo de carga utilizando bibliotecas de python.
 
 También ponemos esta edición a disposición de instituciones académicas con fines de investigación.
 
-Edición de Empresa
+### Edición de Empresa
 
 A medida que los equipos y los casos de uso escalan, ofrecemos una edición empresarial de Energy Workbench que incluye una funcionalidad ampliada, así como las capas de seguridad y autenticación que permiten a los equipos de TI corporativos desarrollar y respaldar aplicaciones de nivel empresarial.
