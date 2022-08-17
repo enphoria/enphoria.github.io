@@ -19,7 +19,8 @@ function HomepageHeader() {
       <div class="main-wrapper">
         <main class="container margin-vert--lg">
           <div class="text--center margin-bottom--md margin-top--md">
-            <h1>Enphoria Fault Location</h1>
+            <h1>Productos de Enphoria</h1>
+            <h1>Localizador de Fallas</h1>
           </div><div class="row">
             <div class="col col--4 margin-bottom--lg">
               <div class="card showcaseItem_63An"><div class="card__body">
@@ -57,7 +58,7 @@ function HomepageHeader() {
           </div>
 
           <div class="text--center margin-bottom--md margin-top--md">
-            <h1>Zepben</h1>
+            <h1>Productos que representamos de Zepben</h1>
           </div>
           <div class="row">
             <div class="col col--4 margin-bottom--lg">
