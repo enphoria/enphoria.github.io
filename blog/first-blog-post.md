@@ -4,7 +4,7 @@ title: EDNAR
 ---
 ## Beneficios
 
--El soporte de la cuna a la tumba para el flujo de trabajo de acceso planificado agiliza las operaciones comerciales y reduce los costos
+-El soporte de principio a fin para el flujo de trabajo de acceso planificado que agiliza las operaciones comerciales y reduce los costos
 
 -La visibilidad mejorada del trabajo en toda la empresa reduce el aumento de la demanda y las prácticas laborales reactivas, lo que da como resultado costos reducidos y evita cancelaciones, y mejora el servicio al cliente.
 
@@ -30,7 +30,7 @@ Automatización y seguimiento de notificaciones de clientes.
 
 EDNAR soporta todo el ciclo de vida del trabajo planificado.
 
-La captura temprana de trabajos durante el proceso de planificación brinda oportunidades para una mejor gestión de los trabajos y menos interrupciones a través de funciones avanzadas de detección de conflictos, así como la capacidad de identificar y combinar actividades de mantenimiento de activos diferibles con trabajos de clientes no diferibles en la misma interrupción.
+La captura temprana de los trabajos durante el proceso de planificación ofrece oportunidades para una mejor gestión de los trabajos y menos interrupciones gracias a las funciones avanzadas de detección de conflictos, así como la capacidad de identificar y combinar actividades de mantenimiento de activos aplazables con trabajos de clientes no aplazables en la misma interrupción.
 
 EDNAR proporciona la digitalización de los procesos manuales que normalmente se utilizan para el flujo de trabajo de planificación de interrupciones, con todos los beneficios correspondientes, como la transparencia de la operación, el seguimiento de auditoría, la reducción de la entrada doble de datos y la gestión eficaz del trabajo.
 
