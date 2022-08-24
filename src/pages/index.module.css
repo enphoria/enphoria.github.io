@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 25rem;
+  padding: 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -12,24 +12,34 @@
 
 @media screen and (max-width: 1000px) {
   .heroBanner {
-    padding: 200rem;
+    padding: 10rem;
   }
 }
 
-.button1 {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  position: absolute;
-  left: 20px;
-
+.avatar__subtitle {
+  margin-top: auto;
+  align-items: auto;
+  justify-content: center;
+  text-rendering: optimizeLegibility;
+  color: var(--ifm-font-color-base);
+ 
 }
 
-.button2 {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  position: absolute;
-  right: 20px;
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  color: var(--ifm-font-color-base);
+  position: center;
+}
 
+.avatar__intro {
+  text-align: justify;
+}
+.row .col.col--4 {
+  --ifm-col-width: auto;
+  --ifm-col-lenght: auto;
+}
+.row .col {
+  --ifm-col-width: auto;
+  --ifm-col-lenght: auto;
 }
